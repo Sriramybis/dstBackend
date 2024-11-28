@@ -13,6 +13,8 @@ app = FastAPI()
 # Define allowed origins
 origins = [
     "http://localhost:5173",  # Add your frontend URL here
+    "https://dst-backend.vercel.app/",
+    "http://localhost:8000",
 ]
 
 # Add CORS middleware
